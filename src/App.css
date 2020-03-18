@@ -2,13 +2,17 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.char-hover {
+  transition: all 1s;
 }
 
+.char-hover:hover {
+  background-color: bisque !important;
+}
+
+/* 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+ .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -35,4 +39,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+}  */
